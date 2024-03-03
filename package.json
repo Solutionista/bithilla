@@ -33,6 +33,11 @@
     "@lit-labs/react": "^1.1.0",
     "@rollup/plugin-replace": "5.0.4",
     "@rollup/pluginutils": "5.0.5",
+    "@storybook/addon-essentials": "^7.6.17",
+    "@storybook/addon-links": "^7.6.17",
+    "@storybook/blocks": "^7.6.17",
+    "@storybook/web-components": "^7.6.17",
+    "@storybook/web-components-vite": "^7.6.17",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "4.2.0",
@@ -41,6 +46,7 @@
     "glob": "10.3.3",
     "rollup-plugin-brotli": "3.1.0",
     "rollup-plugin-visualizer": "5.9.2",
+    "storybook": "^7.6.17",
     "strip-css-comments": "5.0.0",
     "transform-ast": "2.4.4",
     "typescript": "5.3.3",
@@ -120,5 +126,9 @@
       "workbox-precaching": "7.0.0"
     },
     "hash": "8de8864bb72925318364f29204499643ea889f38508f12c6e0462b3d4e433802"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   }
 }

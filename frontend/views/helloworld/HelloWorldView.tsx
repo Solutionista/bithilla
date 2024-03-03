@@ -1,7 +1,7 @@
 import { Button } from '@hilla/react-components/Button.js';
 import { Notification } from '@hilla/react-components/Notification.js';
 import { TextField } from '@hilla/react-components/TextField.js';
-import { HelloWorldService } from 'Frontend/generated/endpoints.js';
+import { HelloWorldService } from 'Frontend/generated/endpoints';
 import { useState } from 'react';
 
 export default function HelloWorldView() {
